@@ -1,0 +1,19 @@
+{
+  "name": "Quizzer",
+  "short_name": "Quizzer",
+  "description": "Create and play fun quizzes!",
+  "start_url": "/quizzer/",
+  "scope": "/quizzer/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0d1117",
+  "theme_color": "#22d3ee",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
