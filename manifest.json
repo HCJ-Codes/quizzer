@@ -1,6 +1,6 @@
 {
-  "name": "Quizzer",
-  "short_name": "Quizzer",
+  "name": "QuizQuiz",
+  "short_name": "QuizQuiz",
   "description": "Create and play fun quizzes!",
   "start_url": "/quizzer/",
   "scope": "/quizzer/",

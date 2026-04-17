@@ -12,7 +12,7 @@ export function renderHome(el, navigate) {
         <!-- Header -->
         <div class="flex items-center justify-between pt-10 pb-6">
           <div>
-            <h1 class="text-5xl font-extrabold gradient-text tracking-tight">Quizzer</h1>
+            <h1 class="text-5xl font-extrabold gradient-text tracking-tight">QuizQuiz</h1>
             <p class="text-slate-400 text-sm mt-1.5">
               ${quizzes.length} quiz${quizzes.length !== 1 ? 'zes' : ''} &middot;
               ${cats.length} categor${cats.length !== 1 ? 'ies' : 'y'}
@@ -85,7 +85,7 @@ export function renderHome(el, navigate) {
         ${cats.length === 0 ? `
           <div class="mt-7 p-4 rounded-2xl border border-cyan-500/30 bg-cyan-500/5 text-center">
             <p class="text-cyan-300 text-sm leading-relaxed">
-              👋 Welcome to Quizzer! Start by tapping <strong>Categories</strong> to create
+              👋 Welcome to QuizQuiz! Start by tapping <strong>Categories</strong> to create
               your first category, then build a quiz.
             </p>
           </div>
